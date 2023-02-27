@@ -7,36 +7,133 @@
     <title>Biodata Pribadi</title>
 </head>
 <body>
-    <h1 align="center">Biodata Diri</h1>
-    <hr width="600px">
+<style>
+body {
+    color: #40513B;
+}
+    .container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
 
-    <table align="center" cellpadding="10px" width="600px">
-        <tr>
-            <td>Nama</td>
-            <td>: Ajeng Listya Devani</td> 
-            <td rowspan="5"><img src="pp.png"></td>
-        </tr>
-        <tr>
-            <td>NPM</td>
-            <td>: 21081010220 </td> 
-        </tr>
-        <tr>
-            <td>Jurusan</td>
-            <td>: Informatika</td> 
-        </tr>
-        <tr>
-            <td>Alamat</td>
-            <td>: Jl Mawar 1 no 30</td>
-        </tr>
-        
-        <tr>
-            <td>Phone</td>
-            <td>: 0812xxxxxxxx</td> 
-        </tr>
-        <tr>
-            <td>E-mail</td>
-            <td>: 21081010220@student.upnjatim.ac.id</td>
-        </tr>
-    </table>
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	flex: 1;
+	margin: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th{
+	background-color: #9DC08B;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+h1{
+    width: 200px;
+    border: 5px dashed #9DC08B;
+}
+.box{
+    max-width: 900px;
+    max-height: 900px;
+    background: #EDF1D6;
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    align: center;
+}
+
+</style>    
+<div class="box">
+    <div class="container">
+            <h1>Biodata Diri</h1>
+            <div class="row">
+                <div class="col">
+                    <img src="pro.jpeg" width="300px" height="300px">
+                </div>
+                <div class="col">
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Ajeng Listya Devani</td>
+                        </tr>
+                        <tr>
+                            <th>Tempat, Tanggal Lahir</th>
+                            <td>Surabaya, 0x Mei 2003</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Jl. Pacar Keling 1 No. 1xx, Surabaya</td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td>21081010220@student.upnjatim.ac.id</td>
+                        </tr>
+                        <tr>
+                            <th>No. Telepon</th>
+                            <td>0812xxxxxxxx</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <h2>About Me</h2>
+            Hi! Nama saya Ajeng Listya Devani. Saya mahasiswa semester 4 jurusan Informatika, Fakultas Ilmu Komputer.
+            <h2>Pendidikan</h2>
+            <table>
+                <tr>
+                    <th>Pendidikan</th>
+                    <th>Jurusan</th>
+                    <th>Tahun Masuk</th>
+                    <th>Tahun Lulus</th>
+                </tr>
+                <tr>
+                    <td>SMPN 29 Surabaya</td>
+                    <td>-</td>
+                    <td>2015</td>
+                    <td>2018</td>
+                </tr>
+                
+                <tr>
+                    <td>SMAN 14 Surabaya</td>
+                    <td>MIPA</td>
+                    <td>2018</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Universitas Pembangunan Nasional Veteran Jawa Timur</td>
+                    <td>Sarjana Teknik Informatika</td>
+                    <td>2021</td>
+                    <td>Sekarang</td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <p style="text-align: center;">
+            <a href="http://instagram.com"><img src="instagram.png" width="25" style="text-align: center;">instagram</a>
+            <a href="http://whatsapp.com"><img src="wa.png" width="25" style="text-align: center;">whatsapp</a>
+        </footer>
+    </div>
+</div>
 </body>
 </html>
