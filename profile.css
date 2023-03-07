@@ -1,0 +1,54 @@
+body {
+    color: #40513B;
+}
+    .container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col {
+	flex: 1;
+	margin: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th{
+	background-color: #9DC08B;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+h1{
+	text-align: auto;
+}
+.box{
+    max-width: 900px;
+    max-height: 900px;
+    background: #EDF1D6;
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+    align: center;
+}
