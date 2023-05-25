@@ -1,0 +1,5 @@
+B001,Harry Potter and the Sorcerer,J.K Rowling,Scholastric,1997,harrypotter.jpg
+B001,Harry Potter and the Sorcerer,J.K Rowling,Scholastric,1997,harrypotter.jpg
+B001,Harry Potter and the Sorcerer,J.K Rowling,Scholastric,1997,harrypotter.jpg
+B002,The Great Gatsby,F. Scoot Fitzgerald,Charles Scribner's Sons,1925,the great gatsby.jpg
+B003,Laskar Pelangi,Andrea Hirata,Bentang Pustaka,2005,laskar pelangi.jpg
